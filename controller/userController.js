@@ -40,7 +40,7 @@ import multer from "multer";
 import { exec } from "child_process";
 import util from "util";
 import crypto from "crypto";  // Ensure you require the crypto module if you haven't
-import consultationModel from "../models/ConsultationModel.js";
+import consultationModel from "../models/consultationModel.js";
 import cron from "node-cron";
 import nurseDepartmentsModel from "../models/nurseDepartmentsModel.js";
 import skillDepartmentsModel from "../models/skillDepartmentsModel.js";
